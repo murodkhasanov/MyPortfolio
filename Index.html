@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web (1)/fontawesome-free-6.4.0-web/css/all.css">
+    <link rel="stylesheet" href="./Main.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./logo.svg" class="logo" alt="" />
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="men"><img src="./photo_2023-06-20_21-54-12.jpg" alt=""></div>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, Im
+                    <div class="letar">
+                        <h3>Murad</h3>
+                    </div>
+                    <br>
+                    <div class="from">Khasanov from Uzbekistan</div>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="foto1.jpg" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hello everyone, my name is Murad. I was born on February 24, 2007 in the city of Samarkand. I am
+                        currently 16 years old and have been studying and working on Web Programming since 1.5 years. I
+                        am currently working on one of my startup projects, an online magazine, and will be a FullStack
+                        developer in the future.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills
+                        </p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience
+                        </p>
+                        <p class="tab-links" onclick="opentab('education')">Education
+                        </p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web development</span><br>Online Store Programming</li>
+                            <li><span>Python development</span><br>District-Regional Olympiad</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - the beginning</span><br>Getting into IT programming</li>
+                            <li><span>2023 - current</span><br>I completely finished IT classes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">MyServices</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-End Dasturlash</h2>
+                    <p>
+                        Vizual, animatsion, onlayn saytlarni dasturlash. Front-End dasturlash faqat old qismini
+                        tayyorlaydi
+                        saytning bir qismi, ya'ni kirishda bizga ko'rinadigan qismi. Back-Enddan farqli o'laroq, bu
+                        tomoshabinni hayratda qoldiradigan asosiy qism
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>Python Dasturlash</h2>
+                    <p>
+                        Python dasturlash tilida men asosan kichik dasturlar tayyorlashda foydalanaman. Men Pythonga
+                        kirib kelishimga asosiy sabab bu albatta 2022-2023-yillarda bo'lgan fan olimpiadalari bo'lgan.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-solid fa-app-store"></i>
+                    <h2>Bots and Hacking</h2>
+                    <p>
+                        Turli xil telegram botlar tayyorlashda albatta 70% dasturchilar Python dasturlash tilini
+                        tanlashadi. Chunki hozirda suniy intelektni ishlab chiqqan bu dasturlashda nafaqat botlar balki
+                        hacklar ham qilishga mo'ljallangan.
+                        Turli xil telegram botlar tayyorlashda albatta 70% dasturchilar Python dasturlash tilini
+                        tanlashadi. Chunki hozirda suniy intelektni ishlab chiqqan bu dasturlashda nafaqat botlar balki
+                        hacklar ham qilishga mo'ljallangan.
+
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My project</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./website.png" alt="">
+                    <div class="layer">
+                        <h3>Online Store for Game accaunts</h3>
+                        <p>
+                            Bu loyihamni yaqin kunlarga dizayninini ishlab chiqaman va bu online magazinda har xil
+                            oyinlarni accauntlarini oldi-sottisi bo'ladi, Va bu saytda yana hech kim qilmagan narsa
+                            accauntlarni muddatli to'lov asosida ham bolishi mumkin.
+                        </p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./telegram-bot-add-group-banner.webp" alt="">
+                    <div class="layer">
+                        <h3>Telegram Bot</h3>
+                        <p>
+                            Telegram ishlatadigan odamning qaysi biridaki botlardan foydalanadi. Mneing o'zimning
+                            shaxsiy botim, ya'ni u qanday bu bot ush xil dasturlash tillari bo'yicha kurslari mavjud
+                            bo'ladi
+                        </p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./3d-isolated-play-the-music-free-png.webp" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>
+                            It is a music player and an application that hosts songs saved from the internet. It has
+                            different aspects than the player and it has many functions
+                        </p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Mee</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>hasanovmurodjon43@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>+998 97 395 0899</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://instagram.com/khsanov__"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://t.me/Mn-Hasanov"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                    <a href="my-cv.pdf" download class="btn btn2 salam">
+                        <p>Download CV</p>
+                    </a>
+                </div>
+                <div class="contact-right">
+                    <form class="formbtn">
+                        <input type="text" name="Name" class="name" placeholder="Your name" required />
+                        <input type="text" name="Familiya" class="familiya" placeholder="Your familiya" required />
+                        <!-- <input type="text" name="email" class="email" placeholder="Your email" required /> -->
+                        <textarea name="Message" class="textarea" placeholder="Xabar yuborish" rows="6"></textarea>
+                        <button type="submit" class="btn btn2 button">Submit</button>
+                    </form>
+                    <div class="savol"><h2>Savollar bo'lsa xabar yuboring <span>👉👉👉</span><p>👆👆👆</p></h2></div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright o kevin, Made <i class="fa-solid fa-heart"></i> Murad
+            </p>
+        </div>
+    </div>
+
+
+
+
+    <div class="content">
+        <h1 class="title">Thank for see
+            <div class="aurora">
+                <div class="aurora__item"></div>
+                <div class="aurora__item"></div>
+                <div class="aurora__item"></div>
+                <div class="aurora__item"></div>
+            </div>
+        </h1>
+    </div>
+
+
+
+
+    <script src="./Script.js"></script>
+</body>
+
+</html>
